@@ -1,7 +1,7 @@
 int i=0;
 
 function setup() {
-  size(512,512);
+  createCanvas(640, 408);
   background(255);
   frameRate(30);
 }
