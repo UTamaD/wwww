@@ -1,24 +1,10 @@
-int i=0;
-
 function setup() {
-  createCanvas(640, 408);
-  background(255);
-  frameRate(30);
+  createCanvas(640, 480);
+  stroke(255);
+  noFill();
 }
 
-
 function draw() {
-    if(i<width){
-      i=i+6;
-      stroke(0);
-      line(0,i,i,height);
-      line(width-0,height-i,width-i,height-height);
-      line(width,height-i,i,height);
-      line(0,i,width-i,0);
-    
-  }
-  
-  
-  
-  
+  background(0);
+  ellipse(mouseX, mouseY, 50, 50);  
 }
